@@ -2,7 +2,7 @@
 
 ### PSO
 
-O PSO foi proposto por Eberhart e Kennedy em 1995 [1], posteriormente foi aplicado em milhares de artigos científicos e a problemas diversos, demonstrando ser uma ferramenta eficaz.
+O PSO foi proposto por Eberhart e Kennedy em 1995, posteriormente foi aplicado em milhares de artigos científicos e a problemas diversos, demonstrando ser uma ferramenta eficaz.
 PSO é uma meta-heurística de inteligência de enxame inspirada no comportamento de grupo de animais, por exemplo bandos de pássaros ou cardumes de peixes. Da mesma forma que os algoritmos genéticos (AG), é um método baseado em população, ou seja, representa o estado do algoritmo por uma população, que é modificado iterativamente até que um critério de terminação seja satisfeito. 
 Cada partícula mantém um registro de suas coordenadas no espaço que estão associadas à melhor solução (fitness) que ela alcançou até agora. Esse valor é chamado de melhor da partícula (particle best). Outro valor “melhor” também é rastreado, a versão global do otimizador de enxame de partículas rastreia o melhor global (global best) e sua localização, obtido até agora por qualquer partícula na população.
 O conceito de Otimização de Enxame de Partículas (PSO) consiste em, a cada passo de tempo, mudar a velocidade (aceleração) de cada partícula em direção a sua particle best e global best. A aceleração é descrita por números aleatórios, sendo gerados para aceleração em direção à particle best e global best.
